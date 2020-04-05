@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{ea4c5740-10f5-4349-8ad6-d780ce577129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{18fb1c79-f50b-4b9b-a264-e066d2bca54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{3b319a7b-f402-4300-9aa3-5e72a00a51d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\image">
+      <UniqueIdentifier>{c6071c33-1efa-44cc-a846-47833fbef4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\gameNode">
+      <UniqueIdentifier>{71e18ebb-4095-48a9-bf64-0101a4b28e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\singletonBase">
+      <UniqueIdentifier>{1352499b-c472-4ac9-85cb-71b3f3226ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UTIL">
+      <UniqueIdentifier>{ee673918-6273-48b6-b9d8-c4d87fd95bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\애니메이션">
+      <UniqueIdentifier>{815067c8-1852-4de4-88c6-942efbfbdbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\이펙트">
+      <UniqueIdentifier>{a85304e6-b75f-4c0c-8b3c-6a086fab35f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\타이머">
+      <UniqueIdentifier>{63bdded0-ba64-47dd-adec-960c099f3b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{013f3ade-f946-4e03-b98c-0b31a6135038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{41acc89b-acfe-431c-9a4a-eec01ecbecaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a0bf7726-ee22-4476-a9d3-030c50406159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{4f44fb4a-bc77-4a5c-afbe-99f594638bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit">
+      <UniqueIdentifier>{3210982e-1d9b-4e2e-9a9e-d7cdf14b926b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\플레이어">
+      <UniqueIdentifier>{b585f86b-0c42-42da-921b-1b722a6a7b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maptool">
+      <UniqueIdentifier>{406c98aa-d38b-455e-abf6-6efe63b0d970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\스토어">
+      <UniqueIdentifier>{82e18ae4-dcc8-43df-84b1-c72bb5319f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\NPC">
+      <UniqueIdentifier>{a92daed1-4f78-4308-b325-fb9a2349c232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\NPC\무기NPC">
+      <UniqueIdentifier>{9f20a7ce-254d-4bb7-b9d6-60ca92646d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\kind">
+      <UniqueIdentifier>{caa1b6fa-e459-4f10-99b5-6843f66db51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Monster">
+      <UniqueIdentifier>{b980c992-8e3c-4119-bb75-113c2490faaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Monster\Melee">
+      <UniqueIdentifier>{d8a31b27-c899-4fd4-9f2a-280882011698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Monster\Range">
+      <UniqueIdentifier>{08db7321-ed58-40da-af1e-4560cd94a8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Missile">
+      <UniqueIdentifier>{e1af2ec8-0f1d-473e-9eb0-d825a1ad023e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{7fe868a8-04cf-413b-bf7d-b5e3f12135b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\always">
+      <UniqueIdentifier>{72cae0d7-a874-4f50-b70e-02e0bf48cc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\weapon">
+      <UniqueIdentifier>{f7df039e-2471-451c-a2fc-c1cfc06626c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\gain">
+      <UniqueIdentifier>{69b543e0-9299-46fb-986f-40738f617cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Monster\Boss">
+      <UniqueIdentifier>{2ea3b85d-64bb-4928-9abc-c0ae06af9d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\box">
+      <UniqueIdentifier>{3776b440-01c2-4e8f-af6a-ef8a7b533c7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\effectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\randomFunction.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gameNode.h">
+      <Filter>base\gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="base\image.h">
+      <Filter>base\image</Filter>
+    </ClInclude>
+    <ClInclude Include="base\singletonBase.h">
+      <Filter>base\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="base\utils.h">
+      <Filter>base\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\effect.h">
+      <Filter>base\이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="base\timer.h">
+      <Filter>base\타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\stage.h">
+      <Filter>Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Maptool\MapTile.h">
+      <Filter>Maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="Maptool\Maptool.h">
+      <Filter>Maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation.h">
+      <Filter>base\애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\cameraManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\startscene.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\player\Player.h">
+      <Filter>Object\Unit\플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Ghost.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Minotaurs.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Skeleton_dog.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Skeleton_warrior.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Skeleton_warrior_onehand.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Skeleton_warrior_twohand.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Range\Banshee.h">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Range\Bat_big_purple.h">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Range\Bat_big_red.h">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Range\Bat_small.h">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Range\Skeleton_archer.h">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Arrow.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Missile.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Monster.h">
+      <Filter>Object\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\MonsterControl.h">
+      <Filter>Object\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\NPC\weaponNpc.h">
+      <Filter>Object\Unit\NPC\무기NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\NPC\NPC.h">
+      <Filter>Object\Unit\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\MissileControl.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="imagetest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Fireball_big.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Fireball_small.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Note.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\townBackGround.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\DungeonEntrance.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\always\dashGauge.h">
+      <Filter>UI\always</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\always\HpBar.h">
+      <Filter>UI\always</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\always\Inventory.h">
+      <Filter>UI\always</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Melee\Bat_small_neutral.h">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\always\MouseCursor.h">
+      <Filter>UI\always</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\always\WeaponSwapSlot.h">
+      <Filter>UI\always</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Store.h">
+      <Filter>UI\스토어</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\Gladius.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\Jukdo.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\LongSword.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\Mace.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\ShortSword.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\weapon\WarHammer.h">
+      <Filter>Object\Item\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BansiRoom.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\minoRoom.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\nomalRoom.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\gain\Coin.h">
+      <Filter>Object\Item\gain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\gain\Fairy.h">
+      <Filter>Object\Item\gain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\gain\GoldBar.h">
+      <Filter>Object\Item\gain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Beliar_DeadEffect.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\BeliarSword.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Missile\Darkball.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Monster\Boss\Beliar.h">
+      <Filter>Object\Unit\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\box\NormalBox.h">
+      <Filter>Object\Item\box</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\box\RareBox.h">
+      <Filter>Object\Item\box</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\AllItemList.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\townscene.h">
+      <Filter>Scene\kind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\effectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gameNode.cpp">
+      <Filter>base\gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="base\image.cpp">
+      <Filter>base\image</Filter>
+    </ClCompile>
+    <ClCompile Include="base\utils.cpp">
+      <Filter>base\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\effect.cpp">
+      <Filter>base\이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="base\timer.cpp">
+      <Filter>base\타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\stage.cpp">
+      <Filter>Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Maptool\Maptool.cpp">
+      <Filter>Maptool</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation.cpp">
+      <Filter>base\애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\cameraManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\startscene.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\townscene.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\player\Player.cpp">
+      <Filter>Object\Unit\플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Ghost.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Minotaurs.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Skeleton_dog.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Skeleton_warrior.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Skeleton_warrior_onehand.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Skeleton_warrior_twohand.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Range\Banshee.cpp">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Range\Bat_big_purple.cpp">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Range\Bat_big_red.cpp">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Range\Bat_small.cpp">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Range\Skeleton_archer.cpp">
+      <Filter>Object\Unit\Monster\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Arrow.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Missile.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Monster.cpp">
+      <Filter>Object\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\MonsterControl.cpp">
+      <Filter>Object\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\NPC\weaponNpc.cpp">
+      <Filter>Object\Unit\NPC\무기NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\NPC\NPC.cpp">
+      <Filter>Object\Unit\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\MissileControl.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="imagetest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Fireball_big.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Fireball_small.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Note.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\townBackGround.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\DungeonEntrance.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\always\dashGauge.cpp">
+      <Filter>UI\always</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\always\HpBar.cpp">
+      <Filter>UI\always</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\always\Inventory.cpp">
+      <Filter>UI\always</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Melee\Bat_small_neutral.cpp">
+      <Filter>Object\Unit\Monster\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\always\MouseCursor.cpp">
+      <Filter>UI\always</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\always\WeaponSwapSlot.cpp">
+      <Filter>UI\always</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Store.cpp">
+      <Filter>UI\스토어</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\Gladius.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\Jukdo.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\LongSword.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\Mace.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\ShortSword.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\weapon\WarHammer.cpp">
+      <Filter>Object\Item\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BansiRoom.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\minoRoom.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\nomalRoom.cpp">
+      <Filter>Scene\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\gain\Coin.cpp">
+      <Filter>Object\Item\gain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\gain\Fairy.cpp">
+      <Filter>Object\Item\gain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\gain\GoldBar.cpp">
+      <Filter>Object\Item\gain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Beliar_DeadEffect.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\BeliarSword.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Missile\Darkball.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Monster\Boss\Beliar.cpp">
+      <Filter>Object\Unit\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\box\NormalBox.cpp">
+      <Filter>Object\Item\box</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\box\RareBox.cpp">
+      <Filter>Object\Item\box</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\AllItemList.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
